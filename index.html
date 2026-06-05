@@ -242,38 +242,6 @@
   </div>
 </section>
 
-<!-- FLIGHTS BANNER -->
-<section class="flights-section">
-  <h2>✈️ 航班資訊 Flight Information</h2>
-  <div class="flights-grid">
-    <div class="flight-card">
-      <div class="route">TPE <span class="arrow">→</span> DXB <span class="arrow">→</span> OSL</div>
-      <div class="detail">Emirates EK365 + EK159</div>
-      <div class="meta">6/12 23:50 出發 → 6/13 12:35 抵達 Oslo (OSL)</div>
-      <div class="meta">轉機：杜拜 (DXB) 07:30 → 轉 EK159</div>
-      <span class="ref">Booking: Emirates</span>
-    </div>
-    <div class="flight-card">
-      <div class="route">BGO <span class="arrow">→</span> SVG</div>
-      <div class="detail">SAS Airlines</div>
-      <div class="meta">6/19 Bergen 13:05 → Stavanger</div>
-      <span class="ref">Ref: YM87L3</span>
-    </div>
-    <div class="flight-card">
-      <div class="route">SVG <span class="arrow">→</span> OSL</div>
-      <div class="detail">SAS Airlines</div>
-      <div class="meta">6/22 Stavanger 10:00 → Oslo</div>
-      <span class="ref">Ref: YMENJF</span>
-    </div>
-    <div class="flight-card">
-      <div class="route">OSL <span class="arrow">→</span> DXB <span class="arrow">→</span> TPE</div>
-      <div class="detail">Emirates EK160 + EK366</div>
-      <div class="meta">6/23 14:35 出發 Oslo → 6/24 03:45 抵台</div>
-      <span class="ref">Return Flight</span>
-    </div>
-  </div>
-</section>
-
 <!-- NAV TABS -->
 <div class="nav-container">
   <div class="nav-tabs">
@@ -302,6 +270,24 @@
         <p>2026年6月13日（六）・Oslo</p>
       </div>
     </div>
+
+    <!-- Flights summary for day 13 -->
+    <div style="background:var(--aurora1);border-radius:16px;padding:20px 24px;margin-bottom:24px;">
+      <h3 style="color:#fff;font-size:15px;margin-bottom:14px;opacity:0.85;letter-spacing:1px;">✈️ 航班資訊 Flight Information</h3>
+      <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px;">
+        <div style="background:rgba(255,255,255,0.1);border-radius:10px;padding:14px 16px;">
+          <div style="font-size:18px;font-weight:800;color:#fff;letter-spacing:2px;">TPE → DXB → OSL</div>
+          <div style="font-size:13px;color:rgba(255,255,255,0.8);margin-top:4px;">Emirates EK365 + EK159</div>
+          <div style="font-size:13px;color:rgba(255,255,255,0.7);margin-top:2px;">6/12 23:50 出發 → 6/13 12:35 抵達 Oslo</div>
+        </div>
+        <div style="background:rgba(255,255,255,0.1);border-radius:10px;padding:14px 16px;">
+          <div style="font-size:18px;font-weight:800;color:#fff;letter-spacing:2px;">OSL → DXB → TPE</div>
+          <div style="font-size:13px;color:rgba(255,255,255,0.8);margin-top:4px;">Emirates EK160 + EK366</div>
+          <div style="font-size:13px;color:rgba(255,255,255,0.7);margin-top:2px;">6/23 14:35 出發 → 6/24 03:45 抵台</div>
+        </div>
+      </div>
+    </div>
+
     <div class="timeline">
       <div class="tl-item">
         <div class="tl-dot" style="background:var(--badge-flight)"></div>
@@ -605,26 +591,74 @@
         <div class="tl-dot" style="background:var(--badge-activity)"></div>
         <div class="tl-card">
           <div class="tl-card-header">
-            <span class="badge badge-activity">🎯 行程</span>
+            <span class="badge badge-activity">🎯 市區</span>
             <h3>Bergen 市區探索</h3>
           </div>
           <ul style="margin-top:8px;padding-left:18px;font-size:14px;color:var(--muted);">
             <li>🏘 Bryggen 老城散步（UNESCO 世界遺產）</li>
             <li>🐟 魚市場午餐</li>
-            <li>🚡 Fløibanen 纜車上 Fløyen 山頂</li>
-            <li>🌲 山上步道散步（約 1 小時）</li>
             <li>🌅 Bergen 港邊看夕陽</li>
           </ul>
         </div>
       </div>
+
+      <div class="tl-item">
+        <div class="tl-dot" style="background:var(--badge-activity)"></div>
+        <div class="tl-card">
+          <div class="tl-card-header">
+            <span class="badge badge-activity">⛰ 主推</span>
+            <h3>Ulriken → Vidden → Fløyen 稜線縱走（5–6 小時）</h3>
+          </div>
+          <p style="margin-top:6px;font-size:13px;color:var(--muted)">景色最壯闊的健行路線！搭 Ulriksbanen 纜車上山，沿稜線穿越高原走到 Fløyen，俯瞰整個卑爾根和峽灣。</p>
+        </div>
+      </div>
+
       <div class="tl-item">
         <div class="tl-dot" style="background:#8b5cf6"></div>
         <div class="tl-card">
           <div class="tl-card-header">
-            <span class="badge badge-tip">💡 選擇</span>
-            <h3>Ulriken → Vidden → Fløyen 稜線縱走（5–6h）</h3>
+            <span class="badge badge-tip">🌲 輕鬆版 1</span>
+            <h3>Fløyen 山頂高山湖泊散步（最簡單、最療癒）</h3>
           </div>
-          <p style="margin-top:6px;font-size:13px;color:var(--muted)">景色最壯闊的健行路線！搭 Ulriksbanen 纜車上山，沿稜線走到 Fløyen，俯瞰整個卑爾根和峽灣。如不走縱走可改輕鬆版 👇</p>
+          <p style="margin-top:6px;font-size:13px;color:var(--muted)">搭 Fløibanen 纜車到 Fløyen 山頂 → Skomakerdiket 湖（鞋匠湖）繞一圈 → 原路折返</p>
+          <div class="ticket-info" style="margin-top:10px;">
+            <div><span>距離 / 時間</span><br><strong>來回約 2.3 km，45 分–1 小時</strong></div>
+            <div><span>路況</span><br><strong>平整碎石路，運動鞋即可</strong></div>
+            <div><span>安全性</span><br><strong>100%（全程有人）</strong></div>
+          </div>
+          <p style="margin-top:8px;font-size:13px;color:var(--muted)">☕ 湖畔有木屋咖啡廳 Skomakerstuen，可以喝挪威咖啡、吃肉桂捲</p>
+        </div>
+      </div>
+
+      <div class="tl-item">
+        <div class="tl-dot" style="background:#8b5cf6"></div>
+        <div class="tl-card">
+          <div class="tl-card-header">
+            <span class="badge badge-tip">🚡 輕鬆版 2</span>
+            <h3>Ulriken 山頂觀景步道（搭纜車輕鬆擁有大景）</h3>
+          </div>
+          <p style="margin-top:6px;font-size:13px;color:var(--muted)">搭 Ulriksbanen 纜車直達山頂（海拔 643m）→ 沿木棧道與觀景平台散步 → 搭纜車下山</p>
+          <div class="ticket-info" style="margin-top:10px;">
+            <div><span>時間</span><br><strong>約 1–1.5 小時</strong></div>
+            <div><span>亮點</span><br><strong>山頂景觀餐廳可享用午餐</strong></div>
+          </div>
+          <p style="margin-top:8px;font-size:13px;color:var(--muted)">不用走縱走，就有一樣的上帝視角俯瞰卑爾根全景！</p>
+        </div>
+      </div>
+
+      <div class="tl-item">
+        <div class="tl-dot" style="background:#8b5cf6"></div>
+        <div class="tl-card">
+          <div class="tl-card-header">
+            <span class="badge badge-tip">⛰ 輕鬆版 3（最推！）</span>
+            <h3>Fløyen → Sandviken 緩下坡健行</h3>
+          </div>
+          <p style="margin-top:6px;font-size:13px;color:var(--muted)">搭纜車上 Fløyen 山頂 → 往 Sandviken / Munkebotn 方向下坡散步 → 抵達市區北邊搭 3 或 4 號巴士回去</p>
+          <div class="ticket-info" style="margin-top:10px;">
+            <div><span>距離 / 時間</span><br><strong>約 4–5 km，1.5–2 小時</strong></div>
+            <div><span>路況</span><br><strong>全程下坡或平路，碎石步道</strong></div>
+          </div>
+          <p style="margin-top:8px;font-size:13px;color:var(--muted)">沿途經過高山小湖泊和松樹林，接近 Sandviken 時視野開闊，可從不同角度鳥瞰卑爾根海港。Stoltzekleiven 石階的完美替代方案！</p>
         </div>
       </div>
     </div>
@@ -645,11 +679,23 @@
     <div class="day-header">
       <div class="day-number">Day<br><small>06</small></div>
       <div class="day-title">
-        <h2>Bergen 健行日 🥾 Hiking Day</h2>
+        <h2>Bergen 健行日 🥾 Stoltzekleiven</h2>
         <p>2026年6月18日（四）・Bergen</p>
       </div>
     </div>
     <div class="timeline">
+      <div class="tl-item">
+        <div class="tl-dot" style="background:var(--badge-train)"></div>
+        <div class="tl-card">
+          <div class="tl-card-header">
+            <span class="badge badge-train">🚌 前往登山口</span>
+            <h3>City Hostel → Stoltzekleiven 登山口</h3>
+          </div>
+          <p style="margin-top:6px;font-size:13px;color:var(--muted)">從旅舍步行 3 分鐘到 Kong Oscars gate 巴士站 → 搭 <strong>10 號巴士（往 Mulen 方向）</strong> → 終點站 Mulen 下車（車程約 7 分鐘）→ 步行 5–10 分鐘到登山口（Fjellveien）</p>
+          <p style="margin-top:6px;font-size:13px;color:var(--muted)">或直接從旅舍步行前往（2.3 km，約 30–35 分鐘，當作熱身）</p>
+        </div>
+      </div>
+
       <div class="tl-item">
         <div class="tl-dot" style="background:var(--badge-activity)"></div>
         <div class="tl-card">
@@ -657,25 +703,48 @@
             <span class="badge badge-activity">⛰ 主推</span>
             <h3>Stoltzekleiven 石階挑戰（908 階）</h3>
           </div>
-          <p style="margin-top:6px;font-size:13px;color:var(--muted)">全長 800m，垂直爬升 313m，部分坡度達 35°！從 City Hostel 搭 10 號巴士到 Mulen 站，步行 5-10 分鐘到登山口</p>
-          <div class="ticket-info">
+          <p style="margin-top:6px;font-size:13px;color:var(--muted)">全長僅 800m，但垂直飆升 313m，部分坡度達 35°，幾乎是在爬天梯。卑爾根當地人最愛的「露天健身房」！</p>
+          <div class="ticket-info" style="margin-top:10px;">
             <div><span>上山時間</span><br><strong>30–45 分鐘</strong></div>
-            <div><span>下山路線</span><br><strong>繞行至 Fløyen（禁止原路下山）</strong></div>
-            <div><span>總時間</span><br><strong>2.5–3 小時</strong></div>
+            <div><span>下山路線</span><br><strong>往 Fløyen 方向碎石路（⚠️ 禁止原石階下山！）</strong></div>
+            <div><span>建議總時間</span><br><strong>2.5–3 小時</strong></div>
+          </div>
+
+          <div style="margin-top:14px;background:#f6fffe;border-radius:10px;padding:12px 14px;border-left:3px solid var(--aurora3);">
+            <p style="font-size:13px;font-weight:700;color:var(--aurora2);margin-bottom:8px;">🗺 最順暢「完美不回頭」路線</p>
+            <ol style="padding-left:18px;font-size:13px;color:var(--muted);line-height:1.9;">
+              <li>搭 10 號巴士到 Mulen → 走到登山口</li>
+              <li>沿 908 階石階往上（累了停下來回頭看，峽灣市景越來越壯觀）</li>
+              <li>抵達山頂 Stoltzen 觀景台：俯瞰卑爾根港口，視野比 Fløyen 更高更震撼！</li>
+              <li>下山：順著山頂往 Fløyen 方向走平緩碎石路（沿途經過 Skomakerdiket 湖）</li>
+              <li>終點：抵達 Fløyen 纜車站 → 搭纜車回市區，或步行 20 分鐘回旅舍</li>
+            </ol>
           </div>
         </div>
       </div>
+
       <div class="tl-item">
         <div class="tl-dot" style="background:#8b5cf6"></div>
         <div class="tl-card">
           <div class="tl-card-header">
-            <span class="badge badge-tip">💡 輕鬆版</span>
-            <h3>Fløyen 高山湖泊散步 / Ulriken 纜車觀景</h3>
+            <span class="badge badge-tip">💡 備案</span>
+            <h3>下雨天 / 體力備案：Fløyen 湖泊散步 ☕</h3>
           </div>
-          <p style="margin-top:6px;font-size:13px;color:var(--muted)">天雨或體力不足時的完美替代方案。搭 Fløibanen 纜車直達山頂，繞 Skomakerdiket 湖一圈，木屋咖啡廳喝咖啡吃肉桂捲 ☕</p>
+          <p style="margin-top:6px;font-size:13px;color:var(--muted)">⚠️ 下大雨請絕對不要去 Stoltzekleiven，濕滑石階非常危險。改搭 Fløibanen 纜車上 Fløyen，繞 Skomakerdiket 湖，在木屋咖啡廳 Skomakerstuen 喝咖啡吃肉桂捲。</p>
         </div>
       </div>
     </div>
+
+    <div class="tips-box">
+      <h4>⚠️ 安全提醒</h4>
+      <ul>
+        <li>⛔ <strong>禁止走原石階下山</strong>，太陡太窄，逆向危險且傷膝蓋</li>
+        <li>👟 請穿抓地力強的運動鞋或登山鞋</li>
+        <li>🌧 下大雨請改走備案，石階濕滑非常危險</li>
+        <li>🌅 建議 08:30 出發，11:30 回市區吃午餐；或傍晚去看夕陽</li>
+      </ul>
+    </div>
+
     <div class="accom-card">
       <div class="accom-icon">🏨</div>
       <div class="accom-body">
