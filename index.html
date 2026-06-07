@@ -228,6 +228,31 @@
       border-radius: 6px; padding: 2px 10px; font-size: 12px; font-family: monospace;
     }
 
+    /* ── TRAVEL GUIDE ── */
+    .travel-guide { margin-top: 32px; }
+    .travel-guide .tg-header {
+      display: flex; align-items: center; gap: 10px; margin-bottom: 18px;
+      padding-bottom: 12px; border-bottom: 2px dashed var(--aurora4);
+    }
+    .travel-guide .tg-header h3 { font-size: 17px; font-weight: 800; color: var(--aurora1); }
+    .travel-guide .tg-header span { font-size: 13px; color: var(--muted); }
+    .tg-card {
+      background: linear-gradient(135deg, #f0f9ff 0%, #fff 100%);
+      border: 1px solid #b8dff0; border-left: 4px solid var(--aurora3);
+      border-radius: 12px; padding: 18px 20px; margin-bottom: 16px;
+    }
+    .tg-card h4 { font-size: 14px; font-weight: 800; color: var(--aurora2); margin-bottom: 10px; display: flex; align-items: center; gap: 6px; }
+    .tg-card p { font-size: 13px; color: var(--muted); line-height: 1.85; margin-bottom: 8px; }
+    .tg-card p:last-child { margin-bottom: 0; }
+    .tg-card ul { padding-left: 18px; font-size: 13px; color: var(--muted); line-height: 1.95; }
+    .tg-fact {
+      display: inline-block; background: var(--aurora1); color: #fff;
+      border-radius: 6px; padding: 1px 8px; font-size: 11px; font-weight: 700;
+      margin: 3px 3px 0 0; vertical-align: middle;
+    }
+    .tg-fact.gold { background: var(--gold); color: #1a2332; }
+    .tg-fact.red { background: var(--red); }
+
     /* ── FOOTER ── */
     footer {
       background: var(--aurora1); color: rgba(255,255,255,0.7);
@@ -747,6 +772,53 @@
       </div>
     </div>
 
+    <!-- 旅途閱讀 6/15 -->
+    <div class="travel-guide">
+      <div class="tg-header">
+        <span style="font-size:24px">📖</span>
+        <div>
+          <h3>旅途閱讀 — 今天你搭乘的交通工具</h3>
+          <span>在車上邊看風景邊讀，更了解你正在經歷什麼！</span>
+        </div>
+      </div>
+
+      <div class="tg-card">
+        <h4>🚆 Bergen Railway — 世界最美火車之旅</h4>
+        <p>Bergen Railway 被 Lonely Planet 評選為「世界最佳火車之旅之一」，1909 年完工，是北歐海拔最高的鐵路，約 100 公里穿越野生山地。</p>
+        <ul>
+          <li><span class="tg-fact">最高點</span> Finse 車站，海拔 <strong>1,222 公尺</strong>，只能搭火車、步行或騎車抵達</li>
+          <li><span class="tg-fact">星際大戰</span> Finse 曾是《帝國反擊戰》（1979）的拍攝地——那個冰雪星球「Hoth」就是在這裡拍的！</li>
+          <li><span class="tg-fact">冰河</span> 窗外可以看到 Hardangerjøkulen 冰河，海拔 1,863 公尺</li>
+          <li><span class="tg-fact">高原</span> 穿越 Hardangervidda 高原，這是北歐最大的山地高原，高原上點綴著無數挪威人的度假木屋</li>
+          <li>沿途如果看到有人騎自行車靠近鐵道，他們走的是 <strong>Rallarvegen</strong>——這條路原本是建設 Bergen Railway 的工程道路，現在是挪威最美的自行車路線之一</li>
+        </ul>
+        <p style="margin-top:10px;background:#e8f5fa;border-radius:8px;padding:10px 12px;"><strong>🪟 看什麼？</strong> 從 Oslo 出發後，先是綠色山谷，接著進入壯闊的 Hardangervidda 高原（視野極為開闊），最後下降到峽灣地帶。景色不斷變換，坐左邊的你會有最好的視野！</p>
+      </div>
+
+      <div class="tg-card">
+        <h4>🚞 Flåmsbana — 世界最陡的山岳鐵路</h4>
+        <p>Flåmsbana 被公認是「世界上最美的火車之旅」之一，建造歷時超過 20 年，全長 20 公里，有 20 個隧道，其中 18 個是工人徒手鑿出來的！</p>
+        <ul>
+          <li><span class="tg-fact">坡度</span> 北歐坡度最陡的鐵路，火車會在山腹中做 <strong>180 度大迴轉</strong>！</li>
+          <li><span class="tg-fact">1940年</span> 試運行，1944 年完全電氣化</li>
+          <li><span class="tg-fact">Kjosfossen</span> 途中在壯觀的 Kjosfossen 瀑布停靠 5 分鐘拍照，記得下車！</li>
+          <li>車窗外，可以看到深切峽谷中的河流、傾瀉而下的瀑布、山坡上的小農舍</li>
+          <li>快到 Flåm 前，火車會穿出岩石裂口，你可以透過開口看到 Flåm 谷地全貌</li>
+        </ul>
+        <p style="margin-top:10px;background:#e8f5fa;border-radius:8px;padding:10px 12px;"><strong>🪟 看什麼？</strong> 坐右邊的你可以看到最震撼的峽灣水景和陡峭瀑布。注意 Kjosfossen 瀑布停靠，有時候在瀑布邊會有穿傳統服裝的「仙女」出現跳舞表演！</p>
+      </div>
+
+      <div class="tg-card">
+        <h4>🏘 Flåm 村 — 你今晚入住的峽灣小村</h4>
+        <p>Flåm 坐落在 Aurlandsfjord 最深處，接待遊客已有近 200 年歷史，是探索挪威峽灣的絕佳基地。</p>
+        <ul>
+          <li><span class="tg-fact gold">必訪</span> <strong>Flåm Bakery</strong>：試試招牌 Kanelbolle 肉桂捲，是當地最知名的甜點</li>
+          <li><span class="tg-fact gold">必訪</span> <strong>Ægir Brewery</strong>：現代工藝啤酒廠，有峽灣景觀，適合晚餐</li>
+          <li><span class="tg-fact">小知識</span> Aurland 皮鞋工廠是挪威唯一保存的便士樂福鞋工廠，每雙鞋底內嵌一枚 10 分錢硬幣——這是向當年曾捐錢支持工廠渡過難關的人們致敬！</li>
+        </ul>
+      </div>
+    </div>
+
     <div class="accom-card">
       <div class="accom-icon">🏡</div>
       <div class="accom-body">
@@ -909,6 +981,59 @@
             </div>
           </div>
         </div>
+      </div>
+    </div>
+
+    <!-- 旅途閱讀 6/16 -->
+    <div class="travel-guide">
+      <div class="tg-header">
+        <span style="font-size:24px">📖</span>
+        <div>
+          <h3>旅途閱讀 — 今天你搭乘的交通工具</h3>
+          <span>在船上、巴士上邊看風景邊讀！</span>
+        </div>
+      </div>
+
+      <div class="tg-card">
+        <h4>⛵ Nærøyfjord — 世界上最窄的峽灣</h4>
+        <p>Nærøyfjord 是 UNESCO 世界遺產，被認為是挪威最壯觀的自然景觀，也是 Sognefjord 最窄的支流。</p>
+        <ul>
+          <li><span class="tg-fact">尺寸</span> 全長 20 公里，最窄處僅 <strong>250 公尺</strong>寬，最淺處只有 12 公尺深</li>
+          <li><span class="tg-fact">山壁</span> 兩側山壁高達 1,660 公尺，幾乎垂直插入峽灣，景色極為震撼</li>
+          <li><span class="tg-fact">Undredal</span> 途中經過的小村莊，以山羊起司聞名。村裡的 Undredal Church 建於 <strong>1147 年</strong>，只能容納 40 人，號稱斯堪地納維亞最小的教堂</li>
+          <li><span class="tg-fact">Stigen 農場</span> 峽灣邊海拔 300 公尺上的兩座農場——古代居民靠梯子（stigen）爬上爬下。傳說教堂稅務官來收稅時，村民老遠就看到船靠近，立刻把梯子收起來，讓稅務官上不來！</li>
+        </ul>
+        <p style="margin-top:10px;background:#e8f5fa;border-radius:8px;padding:10px 12px;"><strong>👀 在船上看什麼？</strong> 建議到戶外甲板感受峽灣的靜謐和壯闊。注意看水面——<strong>港灣鼠海豚</strong>和<strong>海豹</strong>的頭經常在水中浮沉，有機會看到！</p>
+      </div>
+
+      <div class="tg-card">
+        <h4>🚌 Nærøydalen 峽谷 — 巴士窗外的 UNESCO 風景</h4>
+        <p>Gudvangen 到 Voss 的巴士路段，穿越美麗的 Nærøydalen 峽谷，整個峽谷都在 UNESCO 保護範圍內。</p>
+        <ul>
+          <li>Nærøydalen 是峽灣的延伸，最終終止在陡峭的山壁前（Stalheim 斷崖）</li>
+          <li>沿途會看到：<strong>傾瀉的瀑布</strong>、湍急的河流、以及高聳入雲的山壁</li>
+          <li><span class="tg-fact gold">提示</span> 坐右邊可以欣賞最佳景色</li>
+        </ul>
+      </div>
+
+      <div class="tg-card">
+        <h4>🏙 Gudvangen — 維京人的故鄉</h4>
+        <p>Gudvangen 是一個有著悠久維京歷史的古老村落，超過一個世紀以來吸引了無數旅行者，其中包括德國皇帝 Kaiser Wilhelm，他曾多次乘坐私人遊艇到此。</p>
+        <ul>
+          <li>現在 <strong>Viking Valley</strong> 維京村每年吸引世界各地遊客</li>
+          <li>此區域也以極限運動著名——每年有世界各地的 <strong>定點跳傘</strong>（Base Jumping）選手來此</li>
+          <li>換車點：下船後步行 50 公尺就是巴士站，找「Norway in a Nutshell® – Voss」的巴士</li>
+        </ul>
+      </div>
+
+      <div class="tg-card">
+        <h4>🏔 Voss — 等火車時可以做什麼</h4>
+        <p>你在 Voss 有約 1.5 小時的空檔（12:40–14:07）。這個小鎮非常可愛！</p>
+        <ul>
+          <li><span class="tg-fact gold">推薦</span> <strong>Vangsgata 主街</strong>：從火車站出來，看到教堂後面有個小廣場，Vangsgata 就從那裡開始。有咖啡廳、餐廳、可愛小店</li>
+          <li><span class="tg-fact">選做</span> <strong>Voss Gondola</strong> 纜車到 Hangurstoppen 山頂，有山頂景觀餐廳和壯麗山景（但要注意回程時間）</li>
+          <li>火車站和巴士站就在隔壁，不用擔心找不到</li>
+        </ul>
       </div>
     </div>
 
